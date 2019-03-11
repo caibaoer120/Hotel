@@ -1,0 +1,182 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*  .hms_main CSS*/
+.hms_main{
+
+}
+
+/*底部CSS*/
+footer {
+    background: #fff;
+    padding: 12px;
+    width: 100%;
+    border-top: 1px solid #eff0f4;
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+}
+footer  p {
+	color: #7A7676;
+    font-size: 14px;
+}
+footer  p a{
+	color:#F44336;
+}
+footer  p a:hover{
+	text-decoration:underline;
+}
+/*搜索框清除按钮的css*/
+#divformsearch_input_clear{
+    width:20px; 
+    z-index:9999;
+}
+
+#msearch_input_submit{
+    position: relative;
+    right:15px;
+}
+
+#msearch_input_clear{
+    position: relative;
+    right:25px;
+  
+}
+
+/*顶部栏CSS*/
+.container-fluid
+{
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#HMS_top.show ul li {
+    float:left;
+}
+#top_personDropdownMenu.show {
+    height: 120px;
+}
+#message_badge{
+   padding:0;
+    margin:0;
+}
+#HMS_brand{
+    margin-right: 50px;
+}
+.form-inline{
+    padding:0;
+    margin:0;
+    height: 40px;
+    width: 330px;
+}
+.form-inline .input-group{
+    padding:0;
+    margin:0;
+    height: 40px;
+    width: 240px;
+
+}
+
+.input-group-prepend{
+    padding:0;
+    margin:0;
+    height: 38px;
+
+    
+}
+
+
+/*顶部 个人按钮*/
+#top_personDropdownMenu{
+    padding: 0px;
+    margin: 0px;
+    min-width: 100px;
+    width: 100px;
+}
+#top_personDropdownMenu li {
+
+ 
+}
+#top_personDropdownMenu li a{
+  
+
+ padding-left: 10px;
+   
+}
+#top_person{
+   }
+
+
+/*顶部工具栏 三个按钮 top_message和top_mail有下拉框*/
+#top_tools li{
+    width: 60px;
+    height:40px;
+}
+#top_messageBadge,#top_mailBadge{
+   position: relative;
+   left: 29px;
+   bottom: 25px;
+}
+#top_messageDropdownMenu,#top_mailDropdownMenu{
+    width: 300px;
+    height: 300px;
+}
+#top_messageDropdownMenu li{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    width: 250px;
+}
+#top_messageDropdownMenu li a{
+    padding: 0px;
+    margin: 0px;
+}
+#top_messageDropdownMenu p{
+    margin: 0px;
+}
+/*HotelManage*/
+#HotelManage_Title a{
+
+    text-decoration: none;
+}
+#RoomManage_Title a{
+    text-decoration: none;
+}
+/*usr 个人信息*/
+#personInfo_form .invalid-tooltip{
+    margin-left: 120px;
+    width: 200px;
+}
+#personInfo_form .valid-tooltip{
+    margin-left: 120px;
+    width: 200px;
+}
+
+/*实时页面*/
+.actual_roomdiv{
+    width: 200px;
+    height: 150px;
+    display:inline-block;
+    padding:0;
+    margin: 10px;
+}
+.actual_roomdiv .card-header{
+    height:20px;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+.actual_roomdiv .card-body{
+
+   height: 100px;
+}
+.actual_roomdiv .card-footer{
+
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}

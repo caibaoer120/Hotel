@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hotelManageSystem.mapper.HotelMapper">
+    <!--  id是statement的id parameterType表示输入数据的类型-->
+    <!--#{}表示一个占位符   ${}表示一个凭借符号 会引起sql注入 -->
+    <select id="findHotelByUid" parameterType="int" resultType="Hotel">
+        SELECT * FROM t_hotel WHERE uid=#{id}
+    </select>
+
+    <insert id="insertHotel" parameterType="Hotel">
+        insert into t_hotel(name,phone,address,detail,uid) VALUE(#{name},#{phone},#{address},#{detail},#{id})
+    </insert>
+
+    <update id="updateHotel"  parameterType="Hotel">
+        UPDATE  t_hotel set name=#{name},phone=#{phone},address=#{address},detail=#{detail},uid=#{uid}
+        WHERE id=#{id}
+    </update>
+
+    <delete id="deleteHotel" parameterType="int">
+        delete from t_hotel where id=#{id}
+    </delete>
+
+    <select id="findHotelById" parameterType="int" resultType="Hotel">
+        SELECT * FROM t_hotel WHERE id=#{id}
+    </select>
+
+
+</mapper>

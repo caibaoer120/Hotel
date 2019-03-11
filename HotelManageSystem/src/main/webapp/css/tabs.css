@@ -1,0 +1,44 @@
+/*导航栏CSS*/
+
+#HMS_tabs{
+    margin: 0px;
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+#HMS_tabs ul{
+    padding:0;
+    margin:0;
+}
+    
+#HMS_tabs  li {
+    margin: 5px;
+    width: 160px;
+}
+
+#tabs_menu{
+    position: absolute;
+    top: 70px;
+}
+
+#tabs_manageDropdownMenu.show {
+    display: block;
+    background: #343a40;
+    border: 0px;
+    margin-top: 10px !important;
+}
+
+#tabs_manageDropdownMenu li{
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+#tabs_manageDropdownMenu li button a{
+    color:white;
+    text-decoration: none;
+}
+
+
